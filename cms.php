@@ -4,5 +4,5 @@ variables([
 ]);
 
 function site_before_render() {
-	autosetPageMenu([VARDontOverwriteLogo => true, VARLinkToNodeHome => true]);
+	autosetPageMenu([VARDontOverwriteLogo => true, VARLinkToNodeHome => true, VARLinkToSubnodeHome => true]);
 }
