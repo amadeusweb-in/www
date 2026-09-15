@@ -7,3 +7,8 @@ foreach (['what', 'who', 'usage', 'alignment'] as $item) {
 	echo cbCloseAndOpen('container');
 }
 echo getCodeSnippet('features');
+contentBox('end', '');
+
+runFeature(features::explore);
+variable('slim', true);
+network_menu(function($item) { showSite($item); });
